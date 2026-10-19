@@ -1,0 +1,114 @@
+[
+ {
+  "agent": "Claude Haiku 5.5",
+  "run": "hard-claude-haiku-5-5",
+  "tier": "hard",
+  "tasks": 31,
+  "simulations": 124,
+  "pass^k": {
+   "1": 0.992,
+   "2": 0.984,
+   "3": 0.976,
+   "4": 0.968
+  },
+  "agent_cost_usd": 0.62
+ },
+ {
+  "agent": "Claude Sonnet 5.5",
+  "run": "hard-claude-sonnet-5-5",
+  "tier": "hard",
+  "tasks": 31,
+  "simulations": 124,
+  "pass^k": {
+   "1": 0.984,
+   "2": 0.968,
+   "3": 0.952,
+   "4": 0.935
+  },
+  "agent_cost_usd": 12.1
+ },
+ {
+  "agent": "Gemma 4 31B 8-bit (local)",
+  "run": "final-gemma",
+  "tier": "core",
+  "tasks": 73,
+  "simulations": 292,
+  "pass^k": {
+   "1": 0.979,
+   "2": 0.959,
+   "3": 0.938,
+   "4": 0.918
+  },
+  "agent_cost_usd": 0
+ },
+ {
+  "agent": "Gemma 4 31B 8-bit (local)",
+  "run": "final-gemma",
+  "tier": "hard",
+  "tasks": 31,
+  "simulations": 124,
+  "pass^k": {
+   "1": 0.798,
+   "2": 0.79,
+   "3": 0.782,
+   "4": 0.774
+  },
+  "agent_cost_usd": 0
+ },
+ {
+  "agent": "Gemma 4 31B 8-bit (local)",
+  "run": "final-gemma",
+  "tier": "full",
+  "tasks": 104,
+  "simulations": 416,
+  "pass^k": {
+   "1": 0.925,
+   "2": 0.909,
+   "3": 0.892,
+   "4": 0.875
+  },
+  "agent_cost_usd": 0
+ },
+ {
+  "agent": "Qwen3.8-Flash-Next 4-bit (local)",
+  "run": "final-qwen3.8",
+  "tier": "core",
+  "tasks": 73,
+  "simulations": 292,
+  "pass^k": {
+   "1": 0.846,
+   "2": 0.765,
+   "3": 0.705,
+   "4": 0.658
+  },
+  "agent_cost_usd": 0
+ },
+ {
+  "agent": "Qwen3.8-Flash-Next 4-bit (local)",
+  "run": "final-qwen3.8",
+  "tier": "hard",
+  "tasks": 31,
+  "simulations": 124,
+  "pass^k": {
+   "1": 0.887,
+   "2": 0.806,
+   "3": 0.75,
+   "4": 0.71
+  },
+  "agent_cost_usd": 0
+ },
+ {
+  "agent": "Qwen3.8-Flash-Next 4-bit (local)",
+  "run": "final-qwen3.8",
+  "tier": "full",
+  "tasks": 104,
+  "simulations": 416,
+  "pass^k": {
+   "1": 0.858,
+   "2": 0.777,
+   "3": 0.719,
+   "4": 0.673
+  },
+  "agent_cost_usd": 0
+ }
+]

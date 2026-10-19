@@ -1,0 +1,3 @@
+User-simulator prompts vendored unchanged from sierra-research/tau2-bench at tag v1.0.1
+(data/tau2/user_simulator/), MIT License, Copyright (c) Sierra. tau2 reads them from
+$TAU2_DATA_DIR/tau2/user_simulator/; payerbench.run sets TAU2_DATA_DIR to data/.
