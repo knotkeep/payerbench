@@ -8,11 +8,12 @@ on:
 jobs:
   python:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
         with:
-          enable-cache: true
+          enable-cache: false
       - run: uv sync --all-groups
       - run: uv run ruff check .
       - run: uv run ruff format --check .
